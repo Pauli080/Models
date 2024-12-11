@@ -27,6 +27,7 @@ main {
 .header {
     display: flex;
     justify-content: space-around;
+    width: 95%;
     gap: 3em;
     margin-left: 2em;
     
@@ -41,7 +42,7 @@ header {
 .header p {
     display: flex;
     border: 1px solid black;
-    font-size: 1.8em;
+    font-size: 1.7em;
     
 }
 
@@ -146,6 +147,15 @@ header {
     width: 87%;
     border: none;
     margin: 1em;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+    gap: 3em;
+    margin-left: 2em;
     
 }
 
