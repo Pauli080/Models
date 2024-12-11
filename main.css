@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+    margin-left: 2em;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header p {
+    display: flex;
+    border: 1px solid black;
+    font-size: 1.8em;
+    
+}
+
+.textured {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 1em;
+}
+
+.image {
+    background: #f3f3fa;
+    width: 100%;
+    height: 90%;
+}
+
+.line2 {
+    background: #6ef36e;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    width: 90%;
+    height: 3em;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 1500px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 2em 0em 2em 0em;
+    
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.colour {
+    display: flex;
+    font-size: 1.5em;
+    gap: 2em;
+}
+
+.icon {
+    width: 2em;
+    margin: 1em;
+}
+
+.icons2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    
+    margin: 1em;
+    
+}
+
+@media (min-width: 1440px) {
+    .search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    width: 85%;
+    height: 3em;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 120em;
+}
+
+.colour {
+    display: flex;
+    font-size: 2em;
+    gap: 2em;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    /* padding: 2em 2em 2em 0em; */
+    
+}
+
+.icons2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    border: none;
+    margin: 1em;
+    
+}
+
+.icon {
+    width: 3em;
+    margin: 1em;
+}
+
+.header p {
+    display: flex;
+    border: 1px solid black;
+    font-size: 2.5em;
+    
+}
+
+}
